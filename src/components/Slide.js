@@ -24,7 +24,7 @@ function Slide() {
                 />
                 </p>
             <button className='slide-btn' href='Resume.pdf' download='Resume.pdf'>
-                <a href='/resume.pdf' download='Resume.pdf' className='slide-btn'>Download Resume</a>
+                <a href='/Resume.pdf' download='Resume.pdf' className='slide-btn'>Download Resume</a>
             </button>
 
         </div>

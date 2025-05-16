@@ -1,0 +1,183 @@
+.contact-head{
+    padding-left:13%;
+    width:100%;
+    font-size:43px;
+    background-color: #001514;
+    text-decoration-color: #ffb005;
+    line-height: 60px;
+    font-weight: bold;
+    color:#FBFFFE; 
+  }
+.contact{
+    min-height:90vh;
+    width:100vw;
+    display:flex;
+    padding:0% 15% 5% 0%;
+    background-color:#001514 ;
+    justify-content: center;
+    align-items:center;
+}
+    .lottie-wrapper{
+        width:800px;
+    }
+    .contact-form{
+        border-radius:10px;
+        max-width:45vw;
+        width:100%;
+        height:100%;
+        padding:35px 35px 30px;
+        animation: backgroundLoop 2s ease-in-out infinite;
+        margin:15px 0;
+    }
+        .contact-tittle{
+            font-weight: bold;
+           font-size:40px;
+           text-align: center;
+           color:#ffb005
+        }
+            .input-box{
+                margin-top:20px;
+                color:#FBFFFE;
+                font-size:17px;
+            }
+            .input{
+                color:#FBFFFE;
+                width:100%;
+                height:50px;
+                margin-top:8px;
+                outline:none;
+                background: transparent;
+                border:3px solid #ffa305;
+                border-radius:6px;
+                cursor: auto;
+                padding:15px;
+                font-size:16px;
+                resize:none
+            }
+            &::placeholder{
+                color:#FBFFFE;
+                opacity:0.6;
+            }
+            .input.desc{
+                height:100px;
+                resize:none;
+            }
+        
+        .contact-btn{
+            margin-top:25px;
+            width:100%;
+            height:55px;
+            background-color: #ffb005;
+            border:none;
+            cursor:pointer;
+            font-weight: 700;;
+            color:#FBFFFE;
+            border-radius: 6px;
+            font-size:20px;
+           
+        }
+        .result{
+            width:100%;
+            height:auto;
+            color:#FBFFFE;
+            font-size: 17px;
+            text-align: center;
+            margin-top:15px;
+        }
+    
+
+
+
+@keyframes backgroundLoop {
+    0%   { background-color: #341fed; }
+    25%  { background-color: #3a23f1; }
+    50%  { background-color: #2f1ae2; }
+    75%  { background-color: #3f28f6; }
+    100% { background-color: #341fed; }
+  }
+
+
+@media (max-width: 1024px) {
+    .contact .contact-form {
+      max-width: 60vw;
+  
+      .contact-tittle {
+        font-size: 26px;
+      }
+  
+      .input-box {
+        font-size: 16px;
+  
+        .input {
+          font-size: 15px;
+        }
+      }
+  
+      .contact-btn {
+        font-size: 18px;
+        height: 50px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact{
+        flex-direction:column;
+        padding:20px;
+    }
+    .lottie-wrapper {
+        width:100%;
+        
+      }
+    .contact-form {
+      max-width: 70vw;
+      padding: 20px;
+  
+      .contact-tittle {
+        font-size: 24px;
+      }
+  
+      .input-box {
+        font-size: 15px;
+  
+        .input {
+          font-size: 14px;
+        }
+      }
+  
+      .contact-btn {
+        font-size: 18px;
+        height: 48px;
+      }
+      
+      
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact .contact-form {
+      max-width: 95vw;
+      padding: 15px;
+  
+      .contact-tittle {
+        font-size: 22px;
+      }
+  
+      .input-box {
+        font-size: 14px;
+  
+        .input {
+          font-size: 13px;
+          padding: 12px;
+        }
+      }
+  
+      .contact-btn {
+        font-size: 16px;
+        height: 45px;
+      }
+
+      
+      
+    }
+  }

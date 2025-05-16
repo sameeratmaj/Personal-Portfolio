@@ -1,0 +1,20 @@
+.project{
+    background-color:#001514 ;
+    width:100vw;
+    .project-section{
+        align-self: center;
+        justify-self: center;
+        height:auto;;
+        width:72vw;
+        margin-bottom:3%;
+        
+        
+        .tittle{
+            padding:3% 0;
+            font-size:43px;  
+            line-height: 60px;
+            font-weight: bold;
+            color:#FBFFFE;
+        }
+    }
+}

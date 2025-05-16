@@ -1,0 +1,46 @@
+.footer {
+    text-align: center;
+    padding:7px 0;
+    width:100vw;
+    background-color: #0abced;
+    text-decoration: overline;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+  }
+
+  
+  .social-icon {
+    width:32px;
+    height:32px;
+
+    
+    border-radius: 50%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.4);
+    opacity: 0.8;
+    
+  }
+  
+  .social-icon:active {
+    transform: scale(1.0);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  

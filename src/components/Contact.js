@@ -87,7 +87,7 @@ function Contact() {
                         
                 </form>
             
-        </SlideIn>
+                </SlideIn>
         
     </div>
     </>

@@ -36,14 +36,14 @@
             
             
         }
-        @media(max-width: 780px){
+        @media(max-width: 640px){
             .skills{
-                grid-template-columns: repeat(4,auto);
+                grid-template-columns: repeat(3,auto);
             }
         }
-        @media(min-width: 781px) and (max-width:1024px){
+        @media(min-width: 641px) and (max-width:1024px){
             .skills{
-                grid-template-columns: repeat(5,auto);
+                grid-template-columns: repeat(4,auto);
             }
         }
     }

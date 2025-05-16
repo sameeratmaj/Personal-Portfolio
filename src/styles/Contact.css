@@ -156,7 +156,7 @@
   
   @media (max-width: 480px) {
     .contact .contact-form {
-      max-width: 95vw;
+      max-width:80vw;
       padding: 15px;
   
       .contact-tittle {
